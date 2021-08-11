@@ -1,5 +1,11 @@
-<div style="margin:auto;width:400px;">
-  <button type="button">Inicio</button>
-  <button type="button">Podcasts</button>
-  <button type="button">Contacto</button>
+<style>
+  .btn_menu{
+    height:40px;
+    width:400px;
+  }
+</style>
+<div style="margin:auto;">
+  <button class="btn_menu" type="button">Inicio</button>
+  <button class="btn_menu" type="button">Podcasts</button>
+  <button class="btn_menu" type="button">Contacto</button>
 </div>
