@@ -6,7 +6,7 @@
   }
 </style>
 <div style="margin-top:10px;">
-  <button class="btn_menu" type="button">Inicio</button>
-  <button class="btn_menu" type="button">Podcasts</button>
-  <button class="btn_menu" type="button">Contacto</button>
+  <button class="btn_menu" type="button" onclick="document.location.href='https://radiosonmusica.github.io/';">Inicio</button>
+  <button class="btn_menu" type="button" onclick="document.location.href='https://radiosonmusica.github.io/podcasts.html';">Podcasts</button>
+  <button class="btn_menu" type="button" onclick="document.location.href='https://radiosonmusica.github.io/contacto.html';">Contacto</button>
 </div>
