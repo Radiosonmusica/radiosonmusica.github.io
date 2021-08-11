@@ -5,7 +5,7 @@
     background-color:#ededed;
   }
 </style>
-<div style="margin-top:10px;">
+<div style="margin-top:10px;margin-bottom:10px;">
   <button class="btn_menu" type="button" onclick="document.location.href='https://radiosonmusica.github.io/';">Inicio</button>
   <button class="btn_menu" type="button" onclick="document.location.href='https://radiosonmusica.github.io/podcasts.html';">Podcasts</button>
   <button class="btn_menu" type="button" onclick="document.location.href='https://radiosonmusica.github.io/contacto.html';">Contacto</button>
