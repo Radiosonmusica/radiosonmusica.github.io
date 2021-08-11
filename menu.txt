@@ -1,10 +1,11 @@
 <style>
   .btn_menu{
-    height:40px;
-    width:400px;
+    height:50px;
+    width:440px;
+    background-color:#ededed;
   }
 </style>
-<div style="margin:auto;">
+<div style="margin-top:10px;">
   <button class="btn_menu" type="button">Inicio</button>
   <button class="btn_menu" type="button">Podcasts</button>
   <button class="btn_menu" type="button">Contacto</button>
