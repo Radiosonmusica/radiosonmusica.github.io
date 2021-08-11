@@ -17,5 +17,9 @@
 		<itunes:keywords><![CDATA[Radio sonmúsica, Hablando por ti, Sonidos, Audios]]></itunes:keywords>
 		<itunes:category text="Comedy"/>
 		<itunes:author>Hablando por ti</itunes:author>
+		<itunes:owner>
+			<itunes:name>Radio sonmúsica</itunes:name>
+			<itunes:email>radiosonmusica@gmail.com</itunes:email>
+		</itunes:owner>
 	</channel>
 </rss>
