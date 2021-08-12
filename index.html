@@ -34,10 +34,7 @@
 			};
 			xhr.open("GET","https://radiosonmusica.github.io/menu.txt");
 			xhr.send();
-			var xhr2=new XMLHttpRequest();
-			xhr2.open("GET","https://radiosonmusica.000webhostapp.com/count.php");
-			xhr2.setRequestHeader("Access-Control-Allow-Origin","*");
-			xhr2.send();
+			fetch("https://radiosonmusica.000webhostapp.com/count.php",{'mode':'no-cors','headers':{'Access-Control-Allow-Origin': '*'}});
 		</script>
 	</body>
 </html>
