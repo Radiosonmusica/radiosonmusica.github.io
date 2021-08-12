@@ -3,7 +3,41 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Radio sonmúsica</title>
+		<style>
+			button{
+				cursor:pointer;
+			}
+		</style>
 	</head>
-	<body>
+	<body style="margin:0px;">
+		<div style="height:660px;border:1px solid;background-color:black;">
+			<div style="color:white;float:right;margin-top:20px;margin-right:20px;font-size:20px;">Radio sonmúsica</div>
+			<div style="height:220px;"></div>
+			<div style="margin:auto;width:510px;">
+				<div style="border:2px solid white;width:500px;margin-bottom:50px;"></div>
+				<h2 style="color:white;margin-left:100px;font-size:40px;">Radio sonmúsica</h2>
+				<div style="border:2px solid white;width:500px;margin-top:50px;"></div>
+			</div>
+		</div>
+		<div id="menu"></div>
+		<div id="anuncios" style="width:150px;height:500px;border:1px solid;float:right;margin-right:20px;"></div>
+		<div id="main" style="margin-left:20px;">
+			<div>
+				<h3>Únete a nuestro grupo de Whatsapp para recibir información</h3>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var menu=document.getElementById("menu");
+			var xhr=new XMLHttpRequest();
+			xhr.onload=function(){
+				menu.innerHTML=xhr.response;
+			};
+			xhr.open("GET","https://radiosonmusica.github.io/menu.txt");
+			xhr.send();
+			var xhr2=new XMLHttpRequest();
+			xhr2.open("GET","https://radiosonmusica.000webhostapp.com/");
+			xhr2.setRequestHeader("Access-Control-Allow-Origin","*");
+			xhr2.send();
+		</script>
 	</body>
 </html>
