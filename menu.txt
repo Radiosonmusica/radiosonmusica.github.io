@@ -1,8 +1,13 @@
 <style>
   .btn_menu{
-    height:50px;
-    width:440px;
-    background-color:#ededed;
+    height:40px;
+    width:140px;
+    background-color:white;
+    border-color:black;
+  }
+  .btn_menu:hover{
+    background-color:black;
+    color:white;
   }
 </style>
 <div style="margin-top:10px;margin-bottom:10px;">
