@@ -10,7 +10,7 @@
     color:white;
   }
 </style>
-<div style="margin:auto;margin-top:10px;margin-bottom:10px;">
+<div style="margin:auto;margin-top:10px;margin-bottom:10px;width:330px;">
   <button class="btn_menu" type="button" onclick="document.location.href='https://radiosonmusica.github.io/';">Inicio</button>
   <button class="btn_menu" type="button" onclick="document.location.href='https://radiosonmusica.github.io/podcasts.html';">Podcasts</button>
   <button class="btn_menu" type="button" onclick="document.location.href='https://radiosonmusica.github.io/contacto.html';">Contacto</button>
